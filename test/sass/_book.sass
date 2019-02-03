@@ -1,0 +1,33 @@
+.book
+  padding-bottom: 50px
+  &-contant
+    display: flex
+    justify-content: space-around
+    &__box
+      border: 1px solid #cccccc
+      box-shadow: 0 0 10px rgba(0,0,0,0.5)
+      &_container
+        width: 600px
+        margin: 0 auto
+      &_image
+        img
+          max-width: 800px
+      &_title
+        font-size: 35px
+        font-weight: 400
+      &_subtitle
+        font-size: 25px
+      &_text
+        list-style: none
+        position: relative
+      &_light
+        padding-top: 40px
+      &_text
+        li
+          &:before
+            content: "-"
+            position: absolute
+            left: 15px
+
+.transparent
+  margin-bottom: 50px
